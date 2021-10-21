@@ -57,9 +57,10 @@ M6 = MdWild2.dot(M2)
 print(M5)
 print(M6)
 print(M3)
+#Print the sum of the first row of M3
 print("Sum of Values Lab:", int(M3.sum(axis=0)))
 print(M4)
+#Print the sum of the first row of M4
 print("Sum of Values Wild:", int(M4.sum(axis=0)))
 print("Result for Lab:",math.floor(M3[8]))
-#Divide by 2 as only half leave the maze
 print("Result for Wild:",math.floor((M4[8])))
